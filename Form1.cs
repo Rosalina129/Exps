@@ -97,7 +97,7 @@ namespace Exps
             {
                 btn.Text = "隐藏字符集";
                 isShowClipChar = true;
-                this.Size = new Size(787, 375);
+                this.Size = new Size(787, 375 + 16);
                 watermarkTextBox1.Size = new Size(757, 23);
             }
             else
