@@ -58,6 +58,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CharViewPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CharViewPanel.Designer.cs">
+      <DependentUpon>CharViewPanel.cs</DependentUpon>
+    </Compile>
     <Compile Include="WatermarkTextBox.cs">
       <SubType>Component</SubType>
       <CustomToolNamespace>Exps</CustomToolNamespace>
@@ -79,6 +85,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="CharViewPanel.resx">
+      <DependentUpon>CharViewPanel.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WatermarkTextBox.resx">
       <DependentUpon>WatermarkTextBox.cs</DependentUpon>
     </EmbeddedResource>
