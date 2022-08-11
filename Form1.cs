@@ -82,7 +82,7 @@ namespace Exps
             }
             else if (e.Button == MouseButtons.Right)
             {
-                MessageBox.Show(" " + Convert.ToString(Convert.ToChar(btn.Tag))+"\n"+"Unicode ID: "+ Convert.ToString(btn.Tag));
+                MessageBox.Show(" " + Convert.ToString(Convert.ToChar(btn.Tag)) + "\n" + "ID: " + Convert.ToString(btn.Tag) + "\n" + "Unicode ID: " + "0x" + Convert.ToInt32(btn.Tag).ToString("X"));
             }
         }
         private void ClipboardChar(int a)
